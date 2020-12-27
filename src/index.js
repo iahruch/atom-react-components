@@ -8,6 +8,8 @@ import registerServiceWorker from './registerServiceWorker';
 import Home from './layout/home/home';
 import ButtonSandbox from './components/button/Sandbox';
 import ButtonGroupSandbox from './components/button-group/SandBox';
+import IconSandbox from './components/icon/SandBox';
+
 ReactDOM.render((
   <BrowserRouter>
     <App>
@@ -15,6 +17,7 @@ ReactDOM.render((
         <Route exact path="/" component={Home} />
         <Route exact path="/button" component={ButtonSandbox} />
         <Route exact path="/button-group" component={ButtonGroupSandbox} />
+        <Route exact path="/icon" component={IconSandbox} />
       </Switch>
     </App>
   </BrowserRouter>
