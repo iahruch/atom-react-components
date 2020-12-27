@@ -6,14 +6,16 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 import Home from './layout/home/home';
-
+import ButtonSandbox from './components/buttons/Sandbox';
 ReactDOM.render((
   <BrowserRouter>
     <App>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/button" component={ButtonSandbox} />
       </Switch>
     </App>
   </BrowserRouter>
-), document.getElementById('root'));
+  )
+  , document.getElementById('root'));
 registerServiceWorker();
