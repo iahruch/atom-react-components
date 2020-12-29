@@ -16,6 +16,8 @@ const Navigation = () => (
         <li><NavLink exact to="/image">Image</NavLink></li>
         <li><NavLink exact to="/chip">Chip</NavLink></li>
         <li><NavLink exact to="/badge">Badge</NavLink></li>
+        <li><NavLink exact to="/group-list">GroupList</NavLink></li>
+        <li><NavLink exact to="/input">Input</NavLink></li>
       </ul>
     </nav>
   </div>
